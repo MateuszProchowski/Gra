@@ -1,0 +1,50 @@
+.nawigacja {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: "Anton", sans-serif;
+    background-color: cadetblue;
+    color: gold;
+    height: 50px;
+    text-align: center; 
+}
+.txt {
+    margin-top: 15px;
+}
+.lorem2 {
+    text-align: center;
+    padding: 150px;
+    color: rgb(255, 187, 15);
+    font-family: "Anton", sans-serif;
+}
+.brd2 {
+    border: 10px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: blue;
+    padding: 10px;
+    background-image: url(d6512aj-e2871704-5e75-4ef2-b758-6d7c1ac027eb.jpg);
+}
+.lorem3 {
+    text-align: center;
+    padding: 150px;
+    color: aqua;
+    font-family: 'Goldman',cursive;
+}
+.brd3 {
+    border: 10px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: blue;
+    padding: 10px;
+    background-image: url(pucharinio.jpg);
+}
+.img2 {
+    width: 988px;
+    height: 351px;
+}
+.co {
+    color: white;
+}
+
+
+

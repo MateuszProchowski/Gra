@@ -1,11 +1,14 @@
 .nawigacja {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    font-family: "Anton", sans-serif;
     background-color: cadetblue;
-    color: gold;
     height: 50px;
-    text-align: center; 
+    text-align: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-family: "Anton", sans-serif;
 }
 .txt {
     margin-top: 15px;
@@ -42,8 +45,81 @@
     width: 988px;
     height: 351px;
 }
-.co {
+.napis {
+    text-align: center;
     color: white;
+}
+
+.brd4 {
+    border: 10px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: tomato;
+}
+.brd5 {
+    border: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: aqua;
+}
+.grid{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: 0;
+    margin-left:1%;
+    padding: 55px;
+}
+.obrazek{
+    width: 300px;
+    height: 210px;
+}
+@keyframes zoom {
+    from{
+width: 300px;
+height: 210px;
+    }
+    to{
+transform: scale(1.3);
+    }
+}
+.obrazek:hover{
+    animation-name: zoom;
+    animation-duration: 1500ms;
+}
+
+.overflow{
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 210px;
+    align-items: center;
+}
+.color {
+    background-color: yellow;
+}
+.brd6 {
+    border: 5px;
+    border-style: ridge;
+    border-color: teal;
+}
+.tekscior2 a {
+    text-decoration: none;
+    color: blue;
+    
+}
+.ezez {
+    background-image: url(Niszczenie-Nexusa-w-League-of-Legends.png);
+    width: 1530px;
+    height: 900px;
+}
+.ez {
+    text-align: center;
+
+}
+.czlasa {
+    text-align: center;
+    font-size: 20px;
+    color: gold;
 }
 
 

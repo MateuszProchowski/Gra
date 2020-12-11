@@ -1,6 +1,6 @@
 .nawigacja {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   background-color: cadetblue;
   height: 50px;
   text-align: center;
@@ -166,4 +166,16 @@
   width: 973px;
   height: 91px;
   margin-left: 16%;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2W_ljKkBx6KJ9qATC8L44al3NyHDKn21VPA&usqp=CAU); 
+}
+::-webkit-scrollbar-thumb {
+  background: blue;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: aqua;
 }

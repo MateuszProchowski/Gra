@@ -103,7 +103,6 @@
 }
 .tekscior2 a {
   text-decoration: none;
-  color: white;
 }
 .ezez {
   background-image: url(Niszczenie-Nexusa-w-League-of-Legends.png);
@@ -116,7 +115,7 @@
 .czlasa {
   text-align: center;
   font-size: 20px;
-  color: gold;
+  color: white;
 }
 .brd7 {
   border: 10px;
@@ -152,4 +151,19 @@
 100% { color: gold; }
 
 }
-
+.block {
+  background-color: purple;
+  width: 1530px;
+  height: 124px;
+  border: 10px;
+  border-style: inherit;
+}
+.block2 {
+  background-color: purple;
+}
+.block3 {
+  background-color: purple;
+  width: 973px;
+  height: 91px;
+  margin-left: 16%;
+}
